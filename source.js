@@ -5,6 +5,12 @@
 
 
 /** @return {string} */
+function randomFromArray(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+
+/** @return {string} */
 export function style() {
   const color = `color: #202124;`;
   const fontWeight = `font-weight: bold; font-size: 1em;`;
@@ -15,11 +21,6 @@ export function style() {
   return `${color}${fontWeight}${margin}${padding}${backgroundColor}`;
 }
 
-
-/** @return {string} */
-function randomFromArray() {
-  return fittingEmoji[Math.floor(Math.random() * fittingEmoji.length)];
-}
 
 /**
  * Emojis that work well with my "mark" 💁‍.
@@ -46,5 +47,6 @@ function mark() {
 
   console.log(`%cMade with 🖤 & ${emoji} by Pim de Wit < https://pdw.io >`, style());
 }
+
 
 export default mark;

@@ -1,6 +1,6 @@
 {
   "name": "@pdw.io/mark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal dev mark which I shamelessly inject into friends' sites I build. 👨‍💻",
   "main": "index.js",
   "repository": {
