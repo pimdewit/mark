@@ -1,0 +1,19 @@
+{
+  "name": "@pdw.io/mark",
+  "version": "1.0.0",
+  "description": "My personal dev mark which I shamelessly inject into friends' sites I build. 👨‍💻",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pimdewit/mark.git"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "mark",
+    "tag",
+    "swag"
+  ],
+  "author": "Pim de Wit <https://pdw.io>",
+  "license": "MIT"
+}

@@ -1,0 +1,1 @@
+export default function mark() {console.log("%cMade with \ud83d\udda4 & "+fittingEmoji[Math.floor(Math.random()*fittingEmoji.length)]+" by Pim de Wit < https://pdw.io >","color: #202124;font-weight: bold; font-size: 1em;margin: 5vh 0;padding: 20px;background-color: #f2f3f4;");}
